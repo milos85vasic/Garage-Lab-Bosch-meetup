@@ -1,0 +1,5 @@
+"
+# Git ignore for module ':Meet_the_Kotlin_lecture'
+build/*
+credentials*.gradle
+                
