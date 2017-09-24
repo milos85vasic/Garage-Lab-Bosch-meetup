@@ -14,10 +14,4 @@ package net.milosvasic.conferences.bosch
  * 9.  Generics
  * 10. Infix functions
  */
-fun main(args: Array<String>) {
-
-    println("""
-
-    """.trimIndent())
-
-}
+fun main(args: Array<String>) = println(logo)
