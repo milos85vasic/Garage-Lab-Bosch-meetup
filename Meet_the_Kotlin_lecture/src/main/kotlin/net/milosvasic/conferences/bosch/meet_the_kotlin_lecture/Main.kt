@@ -1,4 +1,4 @@
-package net.milosvasic.conferences.bosch
+package net.milosvasic.conferences.bosch.meet_the_kotlin_lecture
 
 /**
  * Meet the Kotlin:

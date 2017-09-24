@@ -1,16 +1,16 @@
 buildscript {
-	repositories {
-		jcenter()
-		mavenCentral()
-		maven {
-			url uri("http://repo.milosvasic.net/releases")
-		}
-	}
-	dependencies {
-		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.4-3"
-		classpath "org.jetbrains.kotlin:kotlin-reflect:1.1.50"
-		classpath "net.milosvasic.groot:Groot:1.0.0-Beta-3"
-	}
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven {
+            url uri("http://repo.milosvasic.net/releases")
+        }
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.4-3"
+        classpath "org.jetbrains.kotlin:kotlin-reflect:1.1.50"
+        classpath "net.milosvasic.groot:Groot:1.0.0-Beta-3"
+    }
 }
 
 apply plugin: "groot"
@@ -26,19 +26,20 @@ final beta = 0
 final version = 1
 final secondaryVersion = 0
 final tertiaryVersion = 0
-final projectPackage = "net.milosvasic.conferences.bosch"
-final projectGroup = "meet_the_kotlin_lecture"
+final projectPackage = "meet_the_kotlin_lecture"
+final projectGroup = "net.milosvasic.conferences.bosch"
 
 groot.kotlin.project.setup(
-	alpha,
-	beta,
-	version,
-	secondaryVersion,
-	tertiaryVersion,
-	projectGroup,
-	projectPackage
+        alpha,
+        beta,
+        version,
+        secondaryVersion,
+        tertiaryVersion,
+        projectGroup,
+        projectPackage
 )
 
 String fullPackage = groot.kotlin.project.projectPackage
 String fullVersion = groot.kotlin.project.projectVersion
 
+groot.kotlin.application.setup(fullPackage)
