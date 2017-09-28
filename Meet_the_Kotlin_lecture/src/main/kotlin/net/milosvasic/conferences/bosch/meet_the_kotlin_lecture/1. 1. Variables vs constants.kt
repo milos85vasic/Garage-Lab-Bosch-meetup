@@ -6,11 +6,11 @@ class TestClass1 {
      * Accessing global constant and variable.
      */
     fun testMethod1() {
-        a = 7
+        b = 7
         /**
          * Compiler complains: Val cannot be reassigned.
          */
-        // b = 4
+        // c = 4
     }
 
 }
