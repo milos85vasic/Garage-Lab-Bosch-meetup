@@ -15,11 +15,11 @@ var d3 = null
 /**
  * d4 is explicitly set to null
  */
-var d4 : TestClass2? = null
+var d4: TestClass2? = null
 
 class TestClass2 {
 
-    fun testMethod2(){
+    fun testMethod2() {
         println("Kotlin")
     }
 

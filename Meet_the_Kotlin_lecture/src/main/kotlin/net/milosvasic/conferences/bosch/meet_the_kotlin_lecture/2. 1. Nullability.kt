@@ -9,3 +9,12 @@ fun nullability() {
     d4?.testMethod2()
 
 }
+
+/**
+ * If not null then do something
+ */
+fun nullability2() {
+    d4?.let {
+        // Do something here!
+    }
+}
