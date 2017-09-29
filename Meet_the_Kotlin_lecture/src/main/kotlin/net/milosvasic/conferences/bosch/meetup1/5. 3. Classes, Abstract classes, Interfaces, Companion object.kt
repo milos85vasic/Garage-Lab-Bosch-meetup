@@ -16,58 +16,58 @@ class MyManagerClass {
 
 }
 
-fun useCompanionObjectAndObject(){
+/**
+ * Using companion object
+ */
+val url = MyManagerClass.URL // No class instantiation.
 
-    val url = MyManagerClass.URL // No class instantiation.
+val magic = MyManagerClass.getSomeMagic()
 
-    val magic = MyManagerClass.getSomeMagic()
-
-    /**
-     * Using object with interface
-     */
-    val audio = object : Volume {
-        override fun volumeUp() {
-            println("volumeUp")
-        }
-
-        override fun volumeDown() {
-            println("volumeDown")
-        }
-
-        override fun setVolume(volume: Int) {
-            println("setVolume: $volume")
-        }
-
-        override fun getVolume(): Int {
-            return 0
-        }
+/**
+ * Using object with interface
+ */
+val audio = object : Volume {
+    override fun volumeUp() {
+        println("volumeUp")
     }
 
-    audio.setVolume(10)
-
-    /**
-     * Using object with abstract class
-     */
-    val tv = object : Tv() {
-        override fun togglePower() {
-            // ...
-        }
-
-        override fun volumeUp() {
-            // ...
-        }
-
-        override fun volumeDown() {
-            // ...
-        }
-
-        override fun setVolume(volume: Int) {
-            // ...
-        }
-
-        override fun getVolume(): Int {
-            return 0
-        }
+    override fun volumeDown() {
+        println("volumeDown")
     }
 
+    override fun setVolume(volume: Int) {
+        println("setVolume: $volume")
+    }
+
+    override fun getVolume(): Int {
+        return 0
+    }
+}
+
+// To use the object:
+// audio.setVolume(10)
+
+/**
+ * Using object with abstract class
+ */
+val tv = object : Tv() {
+    override fun togglePower() {
+        // ...
+    }
+
+    override fun volumeUp() {
+        // ...
+    }
+
+    override fun volumeDown() {
+        // ...
+    }
+
+    override fun setVolume(volume: Int) {
+        // ...
+    }
+
+    override fun getVolume(): Int {
+        return 0
+    }
 }
