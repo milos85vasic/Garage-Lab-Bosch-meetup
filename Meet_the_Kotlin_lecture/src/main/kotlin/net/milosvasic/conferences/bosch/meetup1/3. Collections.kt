@@ -18,14 +18,14 @@ val carMap2 = mapOf(
 /**
  * Mutable collections (we can add new members)
  */
-val mCarList = listOf<String>()
-val mCarList2 = listOf("Bmw", "Fiat")
+val mCarList = mutableListOf<String>()
+val mCarList2 = mutableListOf("Bmw", "Fiat")
 
-val mCarSet = setOf<String>()
-val mCarSet2 = setOf("Bmw", "Fiat")
+val mCarSet = mutableSetOf<String>()
+val mCarSet2 = mutableSetOf("Bmw", "Fiat")
 
-val mCarMap = mapOf<String, String>()
-val mCcarMap2 = mapOf(
+val mCarMap = mutableMapOf<String, String>()
+val mCcarMap2 = mutableMapOf(
         Pair("Bmw", "Diesel"),
         Pair("Fiat", "Benin")
 )
