@@ -19,29 +19,27 @@ var d4: TestClass2? = null
 
 var d5: TestClass3? = null
 
-class TestClass2 {
 
+/**
+ * Some classes we will use to demonstrate nullability.
+ */
+class TestClass2 {
     fun testMethod2() {
         println("Kotlin")
     }
-
 }
 
 class TestClass3 {
-
     var testData: TestClass4? = null
 
     fun testMethod3() {
         println("Kotlin")
     }
-
 }
 
 class TestClass4 {
-
     fun testMethod4() {
         println("Kotlin")
     }
-
 }
 
