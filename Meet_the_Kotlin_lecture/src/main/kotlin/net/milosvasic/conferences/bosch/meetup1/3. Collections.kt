@@ -1,7 +1,12 @@
 package net.milosvasic.conferences.bosch.meetup1
 
 /**
- * Immutable collections
+ * Differences between mutable and immutable collections are the easiest to explain on example of lists.
+ * Immutable lists implement interface List<out T> which gives class the following functionalities: size i get.
+ * Mutable abilities are gained by implementing MutableList<T> interface, which gives add, addAll and remove features.
+ *
+ *
+ * Immutable collections:
  */
 val carList = listOf<String>() // Can't add new members!
 val carList2 = listOf("Bmw", "Fiat")
@@ -16,7 +21,7 @@ val carMap2 = mapOf(
 )
 
 /**
- * Mutable collections (we can add new members)
+ * Mutable collections (we can add new members):
  */
 val mCarList = mutableListOf<String>()
 val mCarList2 = mutableListOf("Bmw", "Fiat")
