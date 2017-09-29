@@ -1,7 +1,13 @@
 package net.milosvasic.conferences.bosch.meetup1
 
 /**
- * Let's present some functions.
+ * Data classes
+ *
+ * The compiler automatically derives the following members from all properties declared in the primary constructor:
+ *
+ * - equals() / hashCode() pair;
+ * - toString() in human readable form
+ * - copy() for cloning
  */
 data class UserApiResponse(
         val userId: Int,
