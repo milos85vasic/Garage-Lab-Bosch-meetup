@@ -3,7 +3,6 @@ package net.milosvasic.conferences.bosch.meetup1
 /**
  * Classes
  */
-
 class Dummy
 
 class Dummy2(arg: Int) // We will not be able to access 'arg'
