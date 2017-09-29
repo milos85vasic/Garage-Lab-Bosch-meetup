@@ -10,8 +10,6 @@ package net.milosvasic.conferences.bosch.meetup1
  * 5.  Classes, Abstract classes, Interfaces
  * 6.  Data classes
  * 7.  Extension functions
- * 8.  Extension properties
- * 9.  Generics
- * 10. Infix functions
+ * 8.  Misc
  */
 fun main(args: Array<String>) = println(logo)
