@@ -23,7 +23,7 @@ interface Volume {
 
 }
 
-abstract class Tv : Power, Volume
+abstract class Tv : Device, Power, Volume
 
 open class Sony : Tv() {
     private var volume = 0
