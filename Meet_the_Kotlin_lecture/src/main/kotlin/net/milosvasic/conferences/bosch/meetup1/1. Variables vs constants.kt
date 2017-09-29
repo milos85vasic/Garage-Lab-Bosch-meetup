@@ -9,7 +9,7 @@ val a2 = "Something"          // like this.
 /**
  * Variable in Kotlin.
  *
- * 'a' is globally visible
+ * 'b' is globally visible
  */
 var b = 5
 
