@@ -1,4 +1,4 @@
-package net.milosvasic.conferences.bosch.meet_the_kotlin_lecture
+package net.milosvasic.conferences.bosch.meetup1
 
 var d1 = 10
 

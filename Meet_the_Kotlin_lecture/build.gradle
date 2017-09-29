@@ -26,7 +26,7 @@ final beta = 0
 final version = 1
 final secondaryVersion = 0
 final tertiaryVersion = 0
-final projectPackage = "meet_the_kotlin_lecture"
+final projectPackage = "meetup1"
 final projectGroup = "net.milosvasic.conferences.bosch"
 
 groot.kotlin.project.setup(

@@ -1,4 +1,4 @@
-package net.milosvasic.conferences.bosch.meet_the_kotlin_lecture
+package net.milosvasic.conferences.bosch.meetup1
 
 /**
  * In whole Kotlin wherever is possible language will detect the type and we don't need to provide it explicitly.
